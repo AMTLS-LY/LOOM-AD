@@ -1,7 +1,7 @@
-# CVTC-M: Multimodal Model for Alzheimer’s Early Diagnosis
+# LOOM-AD: A lightweight omics overlay model with cross-modal fusion for early Alzheimer’s diagnosis and interaction analysis
 
 #### Project Overview
-This project develops a lightweight multimodal fusion model (CVTC-M) for the early diagnosis and conversion time prediction of Alzheimer’s disease (AD) by integrating MRI, protein concentrations, APOE genotypes, and SNP data. Leveraging an implicit time-series modeling approach with scale-adaptive embedding (SAE) and long-short attention mechanisms (LS-Transformer), the model enhances prediction accuracy while reducing computational complexity.
+This project develops a lightweight multimodal fusion model (LOOM-AD) for the early diagnosis and conversion time prediction of Alzheimer’s disease (AD) by integrating MRI, protein concentrations, APOE genotypes, and SNP data. Leveraging an implicit time-series modeling approach with scale-adaptive embedding (SAE) and long-short attention mechanisms (LS-Transformer), the model enhances prediction accuracy while reducing computational complexity.
 
 #### Features
 - Multimodal Data Integration: Combines MRI images, protein concentrations, APOE, and SNP data for AD early diagnosis.
@@ -12,7 +12,7 @@ This project develops a lightweight multimodal fusion model (CVTC-M) for the ear
 
 #### Method Description
 ##### Model Architecture
-CVTC-M employs the following core components:
+LOOM-AD employs the following core components:
 - **Scale-Adaptive Embedding (SAE)**: Processes input features with convolution kernels of varying scales, large kernels capture context, small kernels focus on local details, with a dimension ratio of 2 for efficiency.
 - **LS-Transformer**: Integrates Dynamic Position Bias and long-short attention, with long attention capturing macroscopic anatomical relationships and short attention focusing on local microstructures.
 - **Feature Extraction**:
@@ -76,7 +76,7 @@ Output
 1. Ensure Python 3.12.4 or higher is installed.
 2. Clone the repository:
    ```bash
-   git clone https://github.com/username/CVTC-M.git
+   git clone https://github.com/username/LOOM-AD.git
    ```
 3. Install dependencies:
    ```bash
@@ -108,4 +108,4 @@ Contributions are welcome via Issues or Pull Requests! Please refer to the [Cont
 This project is released under the [MIT License](LICENSE).
 
 #### References
-See the "References" section of the paper "CVTC-M: Multimodal Model for Alzheimer’s Early Diagnosis with Interaction Mechanism Insights" for details.
+See the "References" section of the paper "LOOM-AD: Multimodal Model for Alzheimer’s Early Diagnosis with Interaction Mechanism Insights" for details.
